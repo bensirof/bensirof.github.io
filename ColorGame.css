@@ -1,11 +1,12 @@
 body {
     background-color: #232323;
     margin: 0;
-    font-family: "Montserrat", "Avenir";
+    font-family: "Montserrat", "Avenir", serif;
 }
 
 h1 {
     text-align: center;
+    font-size: 4vw;
     color: white;
     background: steelblue;
     margin: 0;
@@ -38,7 +39,7 @@ h1 {
 }
 
 #colorDisplay {
-    font-size: 200%;
+    font-size: 8vw;
 
 }
 
