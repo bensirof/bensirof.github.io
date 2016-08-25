@@ -1,0 +1,31 @@
+body {
+    background-size: cover;
+    background: url("https://images.unsplash.com/photo-1417632993443-302f4897cf67?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb");
+    background-position: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+html {
+    height: 100%;
+}
+#mainTitle {
+    color: #e1e1e1;
+    text-align: center;
+    padding-top: 25%;
+}
+#coName {
+    font-size: 6rem;
+    font-weight: 700;
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4), 0 8px 13px rgba(0, 0, 0, 0.1), 0 18px 23px rgba(0, 0, 0, 0.4);
+}
+#tagLine {
+    font-size: 4rem;
+    /*width: 20%;*/
+    /*padding-left: 25%;*/
+    width: 36%;
+    margin-left: 32%;
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4), 0 8px 13px rgba(0, 0, 0, 0.1), 0 18px 23px rgba(0, 0, 0, 0.4);
+    margin-top: 10px;
+}
+.navbar-brand {
+    font-weight: 700;
+}

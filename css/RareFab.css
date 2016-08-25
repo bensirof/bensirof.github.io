@@ -1,0 +1,42 @@
+body {
+    background: url(https://images.unsplash.com/photo-1444598664632-8403d0237760?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=844&q=80&cs=tinysrgb);
+    background-size: cover;
+    background-position: center; /*keeps background centered in frame*/
+}
+
+html {
+    height: 100%;
+}
+#coName {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 8.0rem;
+    font-family: 'Racing Sans One', cursive;
+}
+
+#tagLine {
+    font-family: 'Racing Sans One', cursive;
+    font-size: 4.0rem;
+}
+
+#content {
+    text-align: center;
+    padding-top: 18%;
+    /*text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+                 0px 8px 13px rgba(0, 0, 0, 0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.4);*/
+    text-shadow: 0 4px 3px red,
+                 0 8px 13px orange;
+                 /*0px 18px 23px yellow;*/
+}
+
+.navbar-brand {
+    font-family: 'Racing Sans One', cursive;
+    text-transform: uppercase;
+}
+
+hr {
+    width: 500px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
