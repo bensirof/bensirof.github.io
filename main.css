@@ -34,5 +34,9 @@ html {
     font-family: 'Inconsolata', monospace;
 }
 .navbar-brand {
-    font-weight: 700;
+    font-weight: 400;
+}
+
+.navbar {
+    font-family: "Montserrat", "Avenir", serif;
 }
